@@ -1,17 +1,17 @@
 FORMAT: 1A
 
-# techtalks.io API
-techtalks.io API is a service to browse a comunity driven curated list of the best technical talks on the internet. If you need help or support, please head over to 
+# tlks.io API
+tlks.io API is a service to browse a comunity driven curated list of the best technical talks on the internet. If you need help or support, please head over to 
 our talk page.
 
 ## Useful links
 
 * [Google Groups support](http://www.google.com)
-* [Privacy policy](http://techtalks.io/policies/privacy)
-* [Terms of Service](http://techtalks.io/policies/terms)
+* [Privacy policy](http://tlks.io/policies/privacy)
+* [Terms of Service](http://tlks.io/policies/terms)
 
 # Group Talks
-Talks related resources of the **techtalks.io API**
+Talks related resources of the **tlks.io API**
 
 ## Talks Collection [/talks]
 ### List all Talks [GET]
