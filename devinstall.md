@@ -10,7 +10,7 @@ Add an ubuntu server base box to your vagrant environment:
 $ vagrant box add ubuntu/trusty64
 ```
 
-## Boot your own Developer's VM
+## Boot your own VM
 
 First clone the *vagrant* project repository from Github:
 
@@ -24,4 +24,30 @@ And then boot up the VM:
 $ vagrant up
 ```
 
+The result is an Ubuntu Server Box configured as this:
+
+* *IP:* 192.168.33.10
+* *Domain:* talks.dev
+
+### How to connect to this box?
+
+You can connect through ssh to is public IP or domain:
+
+```
+$ ssh vagrant@tlks.local
+```
+
+## Deploy tlks.io
+
+Now clone  the *chef* project reposotory from Github:
+
+```
+$ git clone https://github.com/tlksio/chef
+```
+
+And deploy:
+
+```
+$ ./deploy vagrant@tlks.local # Password is 'vagrant'
+```
 
