@@ -1,6 +1,26 @@
 # docs : Developer's Installation
 
+1. [Requirements](devinstall.md#requirements)
+2. [Stype by Step installation guide](devinstall.md#requirements)
+
 ## Requirements
+
+#### Database
+
+* You should have a database at http://mongolab.com
+
+#### Search
+
+* You should have an elastic search instance at http://bonsai.io
+
+#### Auth & Twitter integration
+
+* You should have a Key and Secret key from http://apps.twitter.com
+
+## Step by Step installation guide
+
+
+### Vagrant
 
 Install *vagrant* as described at http://www.vagrantup.com/downloads and:
 
@@ -10,7 +30,7 @@ Add an ubuntu server base box to your vagrant environment:
 $ vagrant box add ubuntu/trusty64
 ```
 
-## Boot your own VM
+### Boot your own VM
 
 First clone the *vagrant* project repository from Github:
 
@@ -29,7 +49,7 @@ The result is an Ubuntu Server Box configured as this:
 * *IP:* 192.168.33.10
 * *Domain:* talks.dev
 
-### How to connect to this box?
+##### How to connect to this box?
 
 You can connect through ssh to is public IP or domain:
 
@@ -37,7 +57,7 @@ You can connect through ssh to is public IP or domain:
 $ ssh vagrant@tlks.local
 ```
 
-## Deploy tlks.io
+### Deploy tlks.io
 
 Now clone  the *chef* project repository from Github:
 
@@ -53,7 +73,7 @@ $ ./deploy vagrant@tlks.local # Password is 'vagrant'
 
 That should take a while, go make a coffee ;)
 
-## Configuration
+### Configuration
 
 Now clone the *front* project repository from Github:
 
@@ -61,13 +81,7 @@ Now clone the *front* project repository from Github:
 $ git clone https://github.com/tlksio/chef
 ```
 
-And based on *configuration.json.dist* create your own *config.json* file:
-
-* You should have a database at http://mongolab.com
-* You should use port 80
-* You should use http://talks.dev/auth/twitter/callback as a twitter callback URL
-* You should have an elastic search instance at http://bonsai.io
-* You should have a Key and Secret key from http://apps.twitter.com
+And based on *configuration.json.dist* create your own *config.json* file.
 
 Example configuration file:
 
@@ -86,6 +100,12 @@ Copy the final *config.json* file to your VM:
 
 ```
 $ scp config.json vagrant@tlks.local:/opt/tlksio/front/config.json
+```
+
+Restart:
+
+```
+$ vagrant ssh -c "service supervisord restart"
 ```
 
 
