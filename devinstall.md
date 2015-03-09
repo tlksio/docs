@@ -39,7 +39,7 @@ $ ssh vagrant@tlks.local
 
 ## Deploy tlks.io
 
-Now clone  the *chef* project reposotory from Github:
+Now clone  the *chef* project repository from Github:
 
 ```
 $ git clone https://github.com/tlksio/chef
@@ -51,7 +51,46 @@ And deploy:
 $ ./deploy vagrant@tlks.local # Password is 'vagrant'
 ```
 
+That should take a while, go make a coffee ;)
+
+## Configuration
+
+Now clone the *front* project repository from Github:
+
+```
+$ git clone https://github.com/tlksio/chef
+```
+
+And based on *configuration.json.dist* create your own *config.json* file:
+
+* You should have a database at http://mongolab.com
+* You should use port 80
+* You should use http://talks.dev/auth/twitter/callback as a twitter callback URL
+* You should have an elastic search instance at http://bonsai.io
+* You should have a Key and Secret key from http://apps.twitter.com
+
+Example configuration file:
+
+```
+{
+    "port": 80,
+    "twitter_callback_url": "http://tlks.local/auth/twitter/callback",
+    "mongodb": "mongodb://xxx:xxx@xxx.dmongolab.com:43180/tlksio",
+    "elasticsearch": "https://xxx:xxx@xxx.bonsai.io",
+    "twitterConsumerKey": "xxx",
+    "twitterConsumerSecret": "xxx"
+}
+```
+
+Copy the final *config.json* file to your VM:
+
+```
+$ scp config.json vagrant@tlks.local:/opt/tlksio/front/config.json
+```
+
+
 Done!
 
 Point your browser to http://tlks.local and happy hacking!
+
 
