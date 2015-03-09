@@ -22,11 +22,13 @@ Refer to [MongoLab's documentation](http://docs.mongolab.com/) for more informat
 
 In the same way than for the database we use an external service for searching and indexing our database. Our choice in this case is http://bonsai.io, a service that provides *Elastic Search* instances.
 
-* You should have an elastic search instance at http://bonsai.io
+Just create an *Elastic Search* instance at http://bonsai.io.
 
 ##### Auth & Twitter integration
 
-* You should have a Key and Secret key from http://apps.twitter.com
+We don't handle the authentication of users at http://tlks.io, we delegate all this feature to *Twitter* and we use *Twitter OAuth*.
+
+Create an app at https://apps.twitter.com and get its *ConsumerKey* and *ConsumerSecret* values. 
 
 ## Step by Step installation guide
 
@@ -113,7 +115,7 @@ Copy the final *config.json* file to your VM:
 $ scp config.json vagrant@tlks.local:/opt/tlksio/front/config.json
 ```
 
-Restart:
+### Restart
 
 ```
 $ vagrant ssh -c "service supervisord restart"
