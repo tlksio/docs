@@ -60,7 +60,7 @@ $ vagrant up
 The result is an Ubuntu Server Box configured as this:
 
 * *IP:* 192.168.33.10
-* *Domain:* talks.dev
+* *Domain:* talks.local
 
 ##### How to connect to this box?
 
