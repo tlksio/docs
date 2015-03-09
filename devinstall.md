@@ -7,13 +7,20 @@
 
 tlks.io is still in heavy development phase so we mostly use external ( and free ) services to host the project. Once the project reaches its first stable version we will consider final thirth party service we will use.
 
-For now anyway we use **MongoDB** as a database, **Elastic Search** for indexing & search engine and **Twitter OAuth** integration for users.
+For now anyway we use *MongoDB* as a database, *Elastic Search* for indexing & search engine and *Twitter OAuth* integration for users.
 
 ##### Database
 
-* You should have a database at http://mongolab.com
+Our provider of choice for *MongoDB* right now is http://mongolab.com.
+
+You should create an user at mongolab.com and then create a database called *tlksio*.
+Remember you must also create an user and set up the password on this database.
+
+Refer to [MongoLab's documentation](http://docs.mongolab.com/) for more information.
 
 ##### Search
+
+In the same way than for the database we use an external service for searching and indexing our database. Our choice in this case is http://bonsai.io, a service that provides *Elastic Search* instances.
 
 * You should have an elastic search instance at http://bonsai.io
 
