@@ -51,3 +51,7 @@ And deploy:
 $ ./deploy vagrant@tlks.local # Password is 'vagrant'
 ```
 
+Done!
+
+Point your browser to http://tlks.local and happy hacking!
+
