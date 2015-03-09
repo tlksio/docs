@@ -5,15 +5,19 @@
 
 ## Requirements
 
-#### Database
+tlks.io is still in heavy development phase so we mostly use external ( and free ) services to host the project. Once the project reaches its first stable version we will consider final thirth party service we will use.
+
+For now anyway we use **MongoDB** as a database, **Elastic Search** for indexing & search engine and **Twitter OAuth** integration for users.
+
+##### Database
 
 * You should have a database at http://mongolab.com
 
-#### Search
+##### Search
 
 * You should have an elastic search instance at http://bonsai.io
 
-#### Auth & Twitter integration
+##### Auth & Twitter integration
 
 * You should have a Key and Secret key from http://apps.twitter.com
 
