@@ -1,7 +1,7 @@
 # docs : Developer's Installation
 
 1. [Requirements](devinstall.md#requirements)
-2. [Stype by Step installation guide](devinstall.md#requirements)
+2. [Stype by Step installation guide](devinstall.md#step-by-step-installation-guide)
 
 ## Requirements
 
@@ -28,7 +28,7 @@ Just create an *Elastic Search* instance at http://bonsai.io.
 
 We don't handle the authentication of users at http://tlks.io, we delegate all this feature to *Twitter* and we use *Twitter OAuth*.
 
-Create an app at https://apps.twitter.com and get its *ConsumerKey* and *ConsumerSecret* values. 
+Create an app at https://apps.twitter.com and get its *ConsumerKey* and *ConsumerSecret* values.
 
 ## Step by Step installation guide
 
