@@ -1,5 +1,7 @@
 # tlks.io : docs
-Documentation for http://tlks.io
+
+Documentation for http://tlks.io, a curated and community driven list of
+technical talks.
 
 1. [Roadmap](roadmap.md)
 2. [Developer's Installation](devinstall.md)
