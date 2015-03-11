@@ -76,13 +76,13 @@ $ git push origin develop
 $ # Now create the release, for example version 0.3.55
 $ git flow release start 0.3.55
 $ [ ... bump version, final fixes ... ]
-$ # Remember to bup package.json version!
+$ # Remember to bump package.json version!
 $ git commit -am "bump to 0.3.55"
 $ # This change must be commited too
-$ git flow release finish 0.0.55
-$ # This command merges branch 0.0.55 to develop and develop to master,
+$ git flow release finish 0.3.55
+$ # This command merges branch 0.3.55 to develop and develop to master,
 $ # creates a tag 0.0.55 and removes local branch.
-$ git push origin deveop; git push origin master; git push --tags
+$ git push origin --all; git push --tags
 $ # Push all changes to github!
 $ # Done! Weeeeee! :D
 ```

@@ -6,8 +6,8 @@ This is the roadmap document for the *tlks.io* project. It describes the
 remaining work to do until version *1.0*.
 
 It is a live document, it means that changes on this spec are and will be
-comming if it is necessary. Nothing is fixed or closed unless we excplicity
-say the contrary. So please put everything in doubt and keep the discussion
+comming if it is necessary. Nothing is fixed or closed unless we excplicity say
+the contrary. So please put everything in doubt and keep the discussion
 alive ;)
 
 This document follows an idea started by Ubuntu, which consists in planning a
@@ -19,7 +19,7 @@ milestones should refer this one and solve an small task and part of it.
 For transparency into our release cycle and in striving to maintain backward
 compatibility, all project components are maintained under
 [the Semantic Versioning guidelines](http://semver.org/). Sometimes we screw
-up, but we'll adhere to those rules whenever possible.
+up, but we'll adhere to those rules whenever is possible.
 
 We also follow the rule that one issue fixed should be a new minor release, so
 expect to have a lot of minor version numbers changes, this will be normal.
