@@ -128,6 +128,9 @@ TODO: This should be discussed!
     - [] implement HATEOAS on this API
 
 - [] TODO: Think on more services to decouple
+    - Separate voting?
+    - Separate auth?
+    - etc...?
 
 ### 0.5.0
 
