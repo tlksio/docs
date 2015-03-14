@@ -39,28 +39,28 @@ Easy or not? ;)
 Lets work on a first MVP ( Most Viable Product ) to build a base project to
 grow. Minimal features should be:
 
-- [ ] Popular & Latest talks
-- [ ] RSS popular & latest talks
+- [x] Popular & Latest talks
+- [x] RSS popular & latest talks
 - [ ] Browse talks by tag
-- [ ] RSS talks by tag
-- [ ] Search talks
-- [ ] Upvote a talk by registered users
-- [ ] Favorite / Unfavorite talks by registered users
-- [ ] Count views for each talk
+- [x] RSS talks by tag
+- [x] Search talks
+- [x] Upvote a talk by registered users
+- [x] Favorite / Unfavorite talks by registered users
+- [x] Count views for each talk
 - [ ] Talk detailed view
 - [ ] Share a talk on Twitter ( twitter cards )
 - [ ] Share a talk on Facebook ( facebook opengraph )
 - [ ] Share a talk on Google+ ( G+ snippets )
 - [ ] Share a talk on Pinterest ( Pinterest rich media )
-- [ ] Related talks to another talk snippet ( for detailed view ).
+- [x] Related talks to another talk snippet ( for detailed view ).
 - [ ] Support only Youtube videos
-- [ ] Auth and user registration throught Twitter OAuth
+- [x] Auth and user registration throught Twitter OAuth
 - [ ] Publish a new talk ( how to dectect duplicates? )
-- [ ] Comments by disqus
-- [ ] Activity list
-- [ ] Private settings for registered users
-- [ ] Public profile for registered users
-- [ ] Public Profile : Published talks list
+- [x] Comments by disqus
+- [x] Activity list
+- [x] Private settings for registered users
+- [x] Public profile for registered users
+- [x] Public Profile : Published talks list
 - [ ] Public Profile : Upvoted talks list
 - [ ] Public Profile : Favorited talks list
 - [ ] Corporate pages like About, Terms, Policty, FAQ etc ...
