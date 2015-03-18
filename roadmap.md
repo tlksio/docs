@@ -41,7 +41,7 @@ grow. Minimal features should be:
 
 - [x] Popular & Latest talks
 - [x] RSS popular & latest talks
-- [ ] Browse talks by tag
+- [x] Browse talks by tag
 - [x] RSS talks by tag
 - [x] Search talks
 - [x] Upvote a talk by registered users
