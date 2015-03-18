@@ -47,22 +47,22 @@ grow. Minimal features should be:
 - [x] Upvote a talk by registered users
 - [x] Favorite / Unfavorite talks by registered users
 - [x] Count views for each talk
-- [ ] Talk detailed view
-- [ ] Share a talk on Twitter ( twitter cards )
-- [ ] Share a talk on Facebook ( facebook opengraph )
-- [ ] Share a talk on Google+ ( G+ snippets )
+- [x] Talk detailed view
+- [x] Share a talk on Twitter ( twitter cards )
+- [x] Share a talk on Facebook ( facebook opengraph )
+- [x] Share a talk on Google+ ( G+ snippets )
 - [ ] Share a talk on Pinterest ( Pinterest rich media )
 - [x] Related talks to another talk snippet ( for detailed view ).
-- [ ] Support only Youtube videos
+- [x] Support only Youtube videos
 - [x] Auth and user registration throught Twitter OAuth
-- [ ] Publish a new talk ( how to dectect duplicates? )
+- [x] Publish a new talk ( how to dectect duplicates? )
 - [x] Comments by disqus
 - [x] Activity list
 - [x] Private settings for registered users
 - [x] Public profile for registered users
 - [x] Public Profile : Published talks list
-- [ ] Public Profile : Upvoted talks list
-- [ ] Public Profile : Favorited talks list
+- [x] Public Profile : Upvoted talks list
+- [x] Public Profile : Favorited talks list
 - [ ] Corporate pages like About, Terms, Policty, FAQ etc ...
 
 ### 0.2.0
