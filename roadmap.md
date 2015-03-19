@@ -50,7 +50,7 @@ grow. Minimal features should be:
 - [x] Talk detailed view
 - [x] Share a talk on Twitter ( twitter cards )
 - [x] Share a talk on Facebook ( facebook opengraph )
-- [x] Share a talk on Google+ ( G+ snippets )
+- [ ] Share a talk on Google+ ( G+ snippets )
 - [ ] Share a talk on Pinterest ( Pinterest rich media )
 - [x] Related talks to another talk snippet ( for detailed view ).
 - [x] Support only Youtube videos
