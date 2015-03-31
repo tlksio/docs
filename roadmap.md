@@ -63,7 +63,7 @@ grow. Minimal features should be:
 - [x] Public Profile : Published talks list
 - [x] Public Profile : Upvoted talks list
 - [x] Public Profile : Favorited talks list
-- [ ] Corporate pages like About, Terms, Policty, FAQ etc ...
+- [x] Corporate pages like About, Terms, Policty, FAQ etc ...
 
 ### 0.2.0
 
