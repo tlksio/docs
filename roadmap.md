@@ -50,7 +50,7 @@ grow. Minimal features should be:
 - [x] Talk detailed view
 - [x] Share a talk on Twitter ( twitter cards )
 - [x] Share a talk on Facebook ( facebook opengraph )
-- [x] Share a talk on Google+ ( G+ snippets )
+- [ ] Share a talk on Google+ ( G+ snippets )
 - [ ] Share a talk on Pinterest ( Pinterest rich media )
 - [x] Related talks to another talk snippet ( for detailed view ).
 - [x] Support only Youtube videos
@@ -63,7 +63,7 @@ grow. Minimal features should be:
 - [x] Public Profile : Published talks list
 - [x] Public Profile : Upvoted talks list
 - [x] Public Profile : Favorited talks list
-- [ ] Corporate pages like About, Terms, Policty, FAQ etc ...
+- [x] Corporate pages like About, Terms, Policty, FAQ etc ...
 
 ### 0.2.0
 
