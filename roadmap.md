@@ -79,13 +79,13 @@ Finally as a new features we will introduce following and followers to our
 users.
 
 - [ ] SEO ( Jose is your turn, document before start working! )
-    - [ ] Start a subproject
+    - [ ] Start subproject documentation section
     - [ ] Create subproject's roadmap
     - [ ] Create subproject's technical documentation
     - [ ] Write subproject requirements, deployment and developer guidelines
     - [ ] Specify all amount of work needed only based on the current platform
     - [ ] Do not think on future tasks. SEO will always be revisited
-- [ ] Add developmer environment on chef deployment scripts
+- [ ] Add developer environment on chef deployment scripts
 - [ ] Add hashbag with a single configuration on chef
     - [ ] On developer environments
     - [ ] On production environments
@@ -132,22 +132,14 @@ in favor on a distributed & microservices based architecture.
 Another important part to work on this milestone is on the caché, we must
 caché everything we can. We need our MVP as fast as hell!
 
-- [ ] Caché everything! ( We should discuss a lot this one, subproject? )
-    - [ ] Varnish? NO! big and too easy :\
-    - [ ] Redis?
-    - [ ] Elastic?
-    - [ ] MongoDB?
-    - [ ] Multi-Level custom caché? ( I vote for this one ) YES!
 - [ ] Revisit SEO
     - [ ] SEO for profile followers
     - [ ] SEO for profile following
 - [ ] Document the architecture of our distributed system.
-    - [ ] Create shiva subproject
-    - [ ] Create a roadmap document with, at least, specs until version 1.0
-    - [ ] Write subproject requirements, deployment and developer guidelines
-- [ ] Implement 0.1 version of shiva subproject for tlks.io
+- [ ] Implement 0.1 version of tlks.io distributed system.
     - [ ] Message bus
     - [ ] Event Manager
+    - [ ] Event Scheduler
     - [ ] Queue System
 - [ ] Indexing Microservice
     - [ ] Define events
@@ -165,6 +157,12 @@ caché everything we can. We need our MVP as fast as hell!
     - [ ] Define events
     - [ ] Define payloads
     - [ ] Which consumers we need?
+- [ ] Caché everything! ( We should discuss a lot this one, subproject? )
+    - [ ] Varnish? NO! big and too easy :\
+    - [ ] Redis?
+    - [ ] Elastic?
+    - [ ] MongoDB?
+    - [ ] Multi-Level custom caché? ( I vote for this one ) YES!
 
 ### 0.4.0
 
