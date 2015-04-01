@@ -50,8 +50,8 @@ grow. Minimal features should be:
 - [x] Talk detailed view
 - [x] Share a talk on Twitter ( twitter cards )
 - [x] Share a talk on Facebook ( facebook opengraph )
-- [ ] Share a talk on Google+ ( G+ snippets )
-- [ ] Share a talk on Pinterest ( Pinterest rich media )
+- [x] Share a talk on Google+ ( G+ snippets )
+- [x] Share a talk on Pinterest ( Pinterest rich media )
 - [x] Related talks to another talk snippet ( for detailed view ).
 - [x] Support only Youtube videos
 - [x] Auth and user registration throught Twitter OAuth
@@ -64,31 +64,109 @@ grow. Minimal features should be:
 - [x] Public Profile : Upvoted talks list
 - [x] Public Profile : Favorited talks list
 - [x] Corporate pages like About, Terms, Policty, FAQ etc ...
+- [ ] 100 talks published
+- [ ] Paginate popular talks
+- [ ] Paginate latest talks
+- [ ] Paginate published talks on profile
+- [ ] Paginate upvoted talks on profile
+- [ ] Paginate favorited talks on profile
 
 ### 0.2.0
 
 We finished our MVP. Now it is time to work on SEO and basic metrics.
 
-Another important part to work on this milestone is on the caché, we must
-caché everything we can. We need our MVP as fast as hell!
-
 Finally as a new features we will introduce following and followers to our
 users.
 
-- [ ] SEO ( Jose is your turn )
-- [ ] Google Analytics
-- [ ] Google Webmaster Tools
-- [ ] Metadata!
-- [ ] Microformats!
+- [ ] SEO ( Jose is your turn, document before start working! )
+    - [ ] Start a subproject
+    - [ ] Create subproject's roadmap
+    - [ ] Create subproject's technical documentation
+    - [ ] Write subproject requirements, deployment and developer guidelines
+    - [ ] Specify all amount of work needed only based on the current platform
+    - [ ] Do not think on future tasks. SEO will always be revisited
+- [ ] Add developmer environment on chef deployment scripts
+- [ ] Add hashbag with a single configuration on chef
+    - [ ] On developer environments
+    - [ ] On production environments
+- [ ] Encrypt hashbag configuration and add this encrypted file to github
+    - [ ] using each developer ssh-key? coool!
+    - [ ] or a single one? meh ... :\
+- [ ] Generate deployed projects configuration with chef
+    - [ ] use previous hashbag file.
+- [ ] Populate database with chef
+    - [ ] On developer environments
+    - [ ] Using *db* project backup
+    - [ ] Get database configuration from the encrypted hasbag
+- [ ] Popuplate index using chef
+    - [ ] On developer environments
+    - [ ] Using previously populated database
+    - [ ] Get index configuration from the encrypted hasbag
+- [ ] Minimize all javascript scripts used on production automatically.
+- [ ] Add support for javascript source maps for development.
+- [ ] Karma : Algorithmic popularity calculation ( docs! subproject? )
+- [ ] Sort popular talks by its karma
+- [ ] Support Vimeo videos
+- [ ] Watch later?
+- [ ] Paginate watch later on profile?
+- [ ] Mark/Show already watched talks on results?
+- [ ] Paginate already watched on profile?
+- [ ] Fetch extra information from the user (twitter api? discuss it)
+- [ ] Fetch extra information from the talk (youtube api? discuss it)
+- [ ] Add slides external link to a talk (optional? discuss it)
+- [ ] Metadata! (google search? discuss it)
+- [ ] Microformats! (check http://microformats.org )
 - [ ] Users: Following / Followers
 - [ ] Public Profile: Following users list
+- [ ] Paginate following users on profile
 - [ ] Public Profile: Followers users list
-- [ ] Caché everything! ( We should discuss a lot this one )
-    - [ ] Redis?
-    - [ ] Varnish?
-    - [ ] Multi-Level custom caché? ( I vote for this one )
+- [ ] Paginate follower users on profile
 
 ### 0.3.0
+
+Microservices! Microservices!
+
+This is mostly work on Shiva subproject and refactoring the current platform
+in favor on a distributed & microservices based architecture.
+
+Another important part to work on this milestone is on the caché, we must
+caché everything we can. We need our MVP as fast as hell!
+
+- [ ] Caché everything! ( We should discuss a lot this one, subproject? )
+    - [ ] Varnish? NO! big and too easy :\
+    - [ ] Redis?
+    - [ ] Elastic?
+    - [ ] MongoDB?
+    - [ ] Multi-Level custom caché? ( I vote for this one ) YES!
+- [ ] Revisit SEO
+    - [ ] SEO for profile followers
+    - [ ] SEO for profile following
+- [ ] Document the architecture of our distributed system.
+    - [ ] Create shiva subproject
+    - [ ] Create a roadmap document with, at least, specs until version 1.0
+    - [ ] Write subproject requirements, deployment and developer guidelines
+- [ ] Implement 0.1 version of shiva subproject for tlks.io
+    - [ ] Message bus
+    - [ ] Event Manager
+    - [ ] Queue System
+- [ ] Indexing Microservice
+    - [ ] Define events
+    - [ ] Define payloads
+    - [ ] Create producer?
+    - [ ] Create consumer that index new published talks on elasticsearch
+- [ ] Promotion Microservice
+    - [ ] Define events
+    - [ ] Define payloads
+    - [ ] Create consumer that promotes new talks on Twitter
+    - [ ] Create consumer that promotes new talks on Facebook
+    - [ ] Create consumer that promotes new talks on Google+
+    - [ ] Create consumer that promotes new talks on Pinterest
+- [ ] Notification Microservice
+    - [ ] Define events
+    - [ ] Define payloads
+    - [ ] Which consumers we need?
+
+### 0.4.0
 
 Enough rock for now, lets make this MVP as solid as Metal. \m/
 
@@ -107,30 +185,12 @@ As a new feature we will intrdocuce collections of talks to our users.
 - [ ] Front-end tests via phantomjs.
 - [ ] Everything on a CI, in our case *TravisCI*
 - [ ] Public code coverage reports using *coveralls.io*
-
-### 0.4.0
-
-Microservices! Microservices!
-
-TODO: This should be discussed!
-
-- [ ] Support Vimeo videos
-- [ ] Fetch data from youtube and vimeo to fullfill the database asynchronously
-  with a separate service.
-     - [ ] ZeroMQ?
-     - [ ] Rabbit?
-     - [ ] NSQ.io?
-     - [ ] Custom?
-- [ ] Separate search from libtlks and front and create:
-    - [ ] libindex ( indexing and searching )
-    - [ ] an api (private ) REST service to search ( with its own caché system )
-    - [ ] implement HAML on this API
-    - [ ] implement HATEOAS on this API
-
-- [ ] TODO: Think on more services to decouple
-    - Separate voting?
-    - Separate auth?
-    - etc...?
+- [ ] Public search documentation syntax ( section help? )
+- [ ] Enhaced search query : AND operator
+- [ ] Enhaced search query : OR operator
+- [ ] Enhaced search query : Wildcard operator
+- [ ] Enhaced search query : Phrase search
+- [ ] Enhaced search query : Word filters with '-' and '+' modifiers
 
 ### 0.5.0
 
@@ -197,4 +257,3 @@ TODO: This should be discussed!
     - [ ] Subdomain? http://pr0n.tlks.io (don't like it)
     - [ ] Canonical? http://tlks.io/pr0n-talks ( yes! yes! )
 - [ ] Tune, tweak the platform and prepare the 1.0 version
-
