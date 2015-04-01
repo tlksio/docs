@@ -9,15 +9,15 @@ of technical talks.
 
 ## Introduction
 
-Please, make sure you also read our [architecture](arquitecture.md) documents
+tlks.io is not a single piece of software. It is more a platform based on a
+microservices paradigm and designed to minimize the complexity of the system
+and maximize the decoupling between its components.
+
+Please, make sure you read our [architecture](arquitecture.md) documents
 to see how these different pieces of software, called *microservices*, work
 together to keep the system up & running, and their
 [configuration & deployment](deploy.md) before you start building or hacking
 in one component by yourself.
-
-tlks.io is not a single piece of software. It is more a platform based on a
-microservices paradigm and designed to minimize the complexity of the system
-and maximize the decoupling between its components.
 
 * [Project's Roadmap](roadmap.md)
 * [Platform Arquitecture](arquitecture.md)
