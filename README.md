@@ -2,7 +2,8 @@
 
 1. [Introduction](#introduction)
 2. [Subprojects](#subprojects)
-3. [Developer's documentation](#developers-documentation)
+3. [Tools & Utilities](#tools-utilities)
+4. [Developer's documentation](#developers-documentation)
 
 This is the documentation for *tlks.io*, a curated and community driven list
 of technical talks.
@@ -39,8 +40,8 @@ tlks.io current & active subprojects are:
 
 ## Tools & Utilities
 
-* [cli](tools/cli.md) : Manage tlks.io from the command line
-* [db](tools/db.md) : Database management & backup tool
+* [cli](tools/cli.md) : Manage tlks.io from the command line.
+* [db](tools/db.md) : Database management & backup tool.
 
 ## Developer's documentation
 
