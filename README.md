@@ -37,6 +37,11 @@ tlks.io current & active subprojects are:
 * [shiva](subprojects/shiva.md) : Event manager, queue system, producers &
   workers.
 
+## Tools & Utilities
+
+* [cli](tools/cli.md) : Manage tlks.io from the command line
+* [db](tools/db.md) : Database management & backup tool
+
 ## Developer's documentation
 
 Are you willing to help on the development of tlks.io? This is the section
