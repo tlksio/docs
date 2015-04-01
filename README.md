@@ -1,11 +1,13 @@
 # tlks.io : docs
 
-[TOC]
-
-## Introduction
+1. [Introduction](#introduction)
+2. [Subprojects](#subprojects)
+3. [Developer's documentation](#developers-documentation)
 
 This is the documentation for *tlks.io*, a curated and community driven list
 of technical talks.
+
+## Introduction
 
 Please, make sure you also read our [architecture](arquitecture.md) documents
 to see how these different pieces of software, called *microservices*, work
