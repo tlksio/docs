@@ -36,8 +36,9 @@ tlks.io current & active subprojects are:
 * [front](subprojects/front.md) : Front-End applications & public APIs.
 * [core](subprojects/core.md) : Business Logic & core libraries.
 * [ranking](subprojects/ranking.md) : Rakning calculation algorithm.
-* [shiva](subprojects/shiva.md) : Event manager, queue system, producers &
-  workers.
+* [scheduler](subprojects/scheduler.md) : Time rate based producer server.
+* [eventer](subprojects/eventer.md) : Distributed Event manager, queue system,
+  producers & workers server.
 
 ## Tools & Utilities
 
