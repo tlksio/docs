@@ -65,9 +65,9 @@ grow. Minimal features should be:
 - [x] Public Profile : Favorited talks list
 - [x] Corporate pages like About, Terms, Policty, FAQ etc ...
 - [ ] 100 talks published
-- [ ] Paginate popular talks
-- [ ] Paginate latest talks
-- [ ] Paginate published talks on profile
+- [x] Paginate popular talks
+- [x] Paginate latest talks
+- [x] Paginate published talks on profile
 - [ ] Paginate upvoted talks on profile
 - [ ] Paginate favorited talks on profile
 
@@ -121,6 +121,7 @@ users.
 - [ ] Paginate following users on profile
 - [ ] Public Profile: Followers users list
 - [ ] Paginate follower users on profile
+- [ ] Modify the youtube player for adding features like "whach it later", can we do that?
 
 ### 0.3.0
 
