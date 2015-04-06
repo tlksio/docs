@@ -79,40 +79,42 @@ Finally as a new features we will introduce following and followers to our
 users.
 
 - [ ] SEO ( Jose is your turn, document before start working! )
-    - [ ] Start subproject documentation section
-    - [ ] Create subproject's roadmap
-    - [ ] Create subproject's technical documentation
-    - [ ] Write subproject requirements, deployment and developer guidelines
+    - [ ] Create subproject's [technical documentation](subprojects/seo.md)
     - [ ] Specify all amount of work needed only based on the current platform
     - [ ] Do not think on future tasks. SEO will always be revisited
 - [ ] Add developer environment on chef deployment scripts
-- [ ] Add hashbag with a single configuration on chef
+- [ ] Add databag with a single configuration on chef
     - [ ] On developer environments
     - [ ] On production environments
-- [ ] Encrypt hashbag configuration and add this encrypted file to github
+- [ ] Encrypt databag configuration and add this encrypted file to github
     - [ ] using each developer ssh-key? coool!
     - [ ] or a single one? meh ... :\
 - [ ] Generate deployed projects configuration with chef
-    - [ ] use previous hashbag file.
+    - [ ] use previous databag file.
 - [ ] Populate database with chef
     - [ ] On developer environments
-    - [ ] Using *db* project backup
-    - [ ] Get database configuration from the encrypted hasbag
+    - [ ] Using [db](tools/db.md) project backup
+    - [ ] Get database configuration from the encrypted databag
 - [ ] Popuplate index using chef
     - [ ] On developer environments
     - [ ] Using previously populated database
-    - [ ] Get index configuration from the encrypted hasbag
+    - [ ] Get index configuration from the encrypted databag
 - [ ] Minimize all javascript scripts used on production automatically.
 - [ ] Add support for javascript source maps for development.
-- [ ] Karma : Algorithmic popularity calculation ( docs! subproject? )
-- [ ] Sort popular talks by its karma
+- [ ] [Karma](subprojects/karma.md) : Algorithmic popularity calculation
+- [ ] New home layout, daily timeline sorted by karma like producthunt.com
+    - [ ] Paginate or Continuous scroll?
 - [ ] Support Vimeo videos
-- [ ] Watch later?
+- [ ] Share a talk by mail
+- [ ] Share a talk by sms
+- [ ] Watch later
+- [ ] CSRF on add form
+- [ ] CSRF on profile form
+- [ ] Search for profiles (people)
 - [ ] Paginate watch later on profile?
 - [ ] Mark/Show already watched talks on results?
 - [ ] Paginate already watched on profile?
-- [ ] Fetch extra information from the user (twitter api? discuss it)
-- [ ] Fetch extra information from the talk (youtube api? discuss it)
+- [ ] Fetch extra information from the talk (youtube api? xml feed? discuss it)
 - [ ] Add slides external link to a talk (optional? discuss it)
 - [ ] Metadata! (google search? discuss it)
 - [ ] Microformats! (check http://microformats.org )
@@ -124,7 +126,8 @@ users.
 - [ ] Modify the youtube player for adding features like "whach it later", can we do that?
 - [ ] Show publisher of the talk and its publication date
 - [ ] Clicking play on youtube player should increase views on the talk
-- [ ] Show upvoters on detailed talk view 
+- [ ] Show upvoters on detailed talk view
+- [ ] Activity should show only followers data, this view will be only for registered users.
 
 ### 0.3.0
 
@@ -139,11 +142,10 @@ caché everything we can. We need our MVP as fast as hell!
 - [ ] Revisit SEO
     - [ ] SEO for profile followers
     - [ ] SEO for profile following
-- [ ] Document the architecture of our distributed system.
+- [ ] Document the architecture of [our distributed system](projects/eventer.md).
 - [ ] Implement 0.1 version of tlks.io distributed system.
     - [ ] Message bus
     - [ ] Event Manager
-    - [ ] Event Scheduler
     - [ ] Queue System
 - [ ] Indexing Microservice
     - [ ] Define events
