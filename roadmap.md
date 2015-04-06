@@ -67,7 +67,7 @@ grow. Minimal features should be:
 - [ ] 100 talks published
 - [x] Paginate popular talks
 - [x] Paginate latest talks
-- [x] Paginate published talks on profile
+- [ ] Paginate published talks on profile
 - [ ] Paginate upvoted talks on profile
 - [ ] Paginate favorited talks on profile
 
@@ -122,6 +122,9 @@ users.
 - [ ] Public Profile: Followers users list
 - [ ] Paginate follower users on profile
 - [ ] Modify the youtube player for adding features like "whach it later", can we do that?
+- [ ] Show publisher of the talk and its publication date
+- [ ] Clicking play on youtube player should increase views on the talk
+- [ ] Show upvoters on detailed talk view 
 
 ### 0.3.0
 
