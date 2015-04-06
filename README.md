@@ -34,6 +34,7 @@ main purpose.
 tlks.io current & active subprojects are:
 
 * [front](subprojects/front.md) : Front-End applications & public APIs.
+* [seo](subprojects/seo.md) :  SEO documentation and guidelines.
 * [core](subprojects/core.md) : Business Logic & core libraries.
 * [ranking](subprojects/ranking.md) : Rakning calculation algorithm.
 * [scheduler](subprojects/scheduler.md) : Time rate based producer server.
