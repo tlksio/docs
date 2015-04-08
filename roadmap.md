@@ -115,6 +115,11 @@ users.
 - [ ] Mark/Show already watched talks on results?
 - [ ] Paginate already watched on profile?
 - [ ] Fetch extra information from the talk (youtube api? xml feed? discuss it)
+    - [ ] Duration
+    - [ ] Tags
+    - [ ] Updated + Created
+    - [ ] Stats: Views + Favorites
+    - [ ] Ratomg: Liked + Dislikes
 - [ ] Add slides external link to a talk (optional? discuss it)
 - [ ] Metadata! (google search? discuss it. May we use [schema](https://support.google.com/webmasters/answer/3280182?hl=en&ref_topic=6003069)? )
 - [ ] Microformats! (check http://microformats.org )
