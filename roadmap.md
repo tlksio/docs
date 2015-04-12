@@ -64,12 +64,12 @@ grow. Minimal features should be:
 - [x] Public Profile : Upvoted talks list
 - [x] Public Profile : Favorited talks list
 - [x] Corporate pages like About, Terms, Policty, FAQ etc ...
-- [ ] 100 talks published
+- [x] 100 talks published
 - [x] Paginate popular talks
 - [x] Paginate latest talks
-- [ ] Paginate published talks on profile
-- [ ] Paginate upvoted talks on profile
-- [ ] Paginate favorited talks on profile
+- [x] Paginate published talks on profile
+- [x] Paginate upvoted talks on profile
+- [x] Paginate favorited talks on profile
 
 ### 0.2.0
 
