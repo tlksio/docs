@@ -14,16 +14,16 @@ tlks.io is not a single piece of software. It is more a platform based on a
 microservices paradigm and designed to minimize the complexity of the system
 and maximize the decoupling between its components.
 
-Please, make sure you read our [architecture](arquitecture.md) documents
+Please, make sure you read our [architecture](architecture/architecture.md) documents
 to see how these different pieces of software, called *microservices*, work
 together to keep the system up & running, and their
-[configuration & deployment](deploy.md) before you start building or hacking
+[configuration & deployment](developers/deploy.md) before you start building or hacking
 in one component by yourself.
 
 * [Project's Roadmap](roadmap.md)
-* [Platform Arquitecture](arquitecture.md)
-    * [What we have now](arquitecture.md#what-we-have-now)
-    * [What we want to build](arquitecture.md#what-we-want-to-build)
+* [Platform Arquitecture](architecture/architecture.md)
+    * [What we have now](architecture/architecture.md#what-we-have-now)
+    * [What we want to build](architecture/architecture.md#what-we-want-to-build)
 
 ## Subprojects
 
@@ -34,10 +34,13 @@ main purpose.
 tlks.io current & active subprojects are:
 
 * [front](subprojects/front.md) : Front-End applications & public APIs.
+* [seo](subprojects/seo.md) :  SEO documentation and guidelines.
 * [core](subprojects/core.md) : Business Logic & core libraries.
 * [ranking](subprojects/ranking.md) : Rakning calculation algorithm.
-* [shiva](subprojects/shiva.md) : Event manager, queue system, producers &
-  workers.
+* [scheduler](subprojects/scheduler.md) : Time rate based producer server.
+* [eventer](subprojects/eventer.md) : Distributed Event manager, queue system,
+  producers & workers server.
+* [cacher](subprojects/cacher.md) : Multi-level caché layer.
 
 ## Tools & Utilities
 

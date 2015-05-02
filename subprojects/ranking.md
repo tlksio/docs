@@ -4,14 +4,16 @@ Items on tlks.io are scored based on its upvote score, the time since the
 item was submitted, and various penalties using the following formula:
 
 ```bash
-score = (points-1) / (hours + timebase) ^ gravity
+score = (points) / (hours + timebase) ^ gravity
 ```
 
 Where:
 
 * points is the number of an item has been upvoted
 * hours is the number of hours since the item has been published
-* graviy is an exponent factor ( by default 1.8 ) used as a time penalty.
+* timebase is the amount of hours that we want our talk not being penalized by
+  the gravity factor, by default 0.
+* graviy is an exponent factor, by default 1.8, used as a time penalty.
 
 So its basically votes divided by an age factor.
 
@@ -19,13 +21,8 @@ Because the item time has a larger exponent than the votes, an item's score
 will eventually drop to zero, so nothing stays on the front page too long.
 This factor is known as *gravity*.
 
-We 1.8 as the default value for its factor. And 5 hours as a timebase.
-Finally we substract points by 1 before its calculation to negate the
-submitters vote.
-
 On this release, tlks.io ranking algorithm do not implement any extra factor
 to boost or penalty the final score.
-
 
 ## TODO
 
@@ -47,7 +44,7 @@ Enhanced formula:
 f = (f1 * f2 * f3 ... * fn)
 ef = (ef1 * ef2 * ef3 ... * efn )
 # enhanced raking calculation
-score = ( (points-1) ^ f ) / ((hours + timebase) ^ gravity) * ef
+score = ( (points) ^ f ) / ((hours + timebase) ^ gravity) * ef
 ```
 
 Where :
