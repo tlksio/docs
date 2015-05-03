@@ -101,15 +101,15 @@ users.
     - [ ] Get index configuration from the encrypted databag
 - [ ] Minimize all javascript scripts used on production automatically.
 - [ ] Add support for javascript source maps for development.
-- [ ] [Karma](subprojects/karma.md) : Algorithmic popularity calculation
+- [x] [Karma](subprojects/karma.md) : Algorithmic popularity calculation
 - [ ] New home layout, daily timeline sorted by karma like producthunt.com
     - [ ] Paginate or Continuous scroll?
-- [ ] Support Vimeo videos
+- [x] Support Vimeo videos
 - [ ] Share a talk by mail
 - [ ] Share a talk by sms
 - [ ] Watch later
-- [ ] CSRF on add form
-- [ ] CSRF on profile form
+- [x] CSRF on add form
+- [x] CSRF on profile form
 - [ ] Search for profiles (people)
 - [ ] Paginate watch later on profile?
 - [ ] Mark/Show already watched talks on results?
@@ -121,17 +121,17 @@ users.
     - [ ] Stats: Views + Favorites
     - [ ] Ratomg: Liked + Dislikes
 - [ ] Add slides external link to a talk (optional? discuss it)
-- [ ] Metadata! (google search? discuss it. May we use [schema](https://support.google.com/webmasters/answer/3280182?hl=en&ref_topic=6003069)? )
-- [ ] Microformats! (check http://microformats.org )
+- [x] Metadata! (google search? discuss it. May we use [schema](https://support.google.com/webmasters/answer/3280182?hl=en&ref_topic=6003069)? )
+- [x] Microformats! (check http://microformats.org )
 - [ ] Users: Following / Followers
 - [ ] Public Profile: Following users list
 - [ ] Paginate following users on profile
 - [ ] Public Profile: Followers users list
 - [ ] Paginate follower users on profile
 - [ ] Modify the youtube player for adding features like "whach it later", can we do that?
-- [ ] Show publisher of the talk and its publication date
+- [x] Show publisher of the talk and its publication date
 - [ ] Clicking play on youtube player should increase views on the talk
-- [ ] Show upvoters on detailed talk view
+- [x] Show upvoters on detailed talk view
 - [ ] Activity should show only followers data, this view will be only for registered users.
 
 ### 0.3.0
